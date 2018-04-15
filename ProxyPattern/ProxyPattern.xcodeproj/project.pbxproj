@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADC2F6120836C9A00B1C473 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC2F6020836C9A00B1C473 /* main.swift */; };
-		0ADC2F68208370D400B1C473 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC2F67208370D400B1C473 /* Director.swift */; };
+		0ADC2FF020837A5D00B1C473 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC2FEF20837A5D00B1C473 /* main.swift */; };
+		0ADC2FF720837A8000B1C473 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC2FF620837A8000B1C473 /* Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0ADC2F5B20836C9A00B1C473 /* CopyFiles */ = {
+		0ADC2FEA20837A5D00B1C473 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0ADC2F5D20836C9A00B1C473 /* BuilderPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BuilderPattern; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ADC2F6020836C9A00B1C473 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0ADC2F67208370D400B1C473 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		0ADC2FEC20837A5D00B1C473 /* ProxyPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProxyPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADC2FEF20837A5D00B1C473 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0ADC2FF620837A8000B1C473 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ADC2F5A20836C9A00B1C473 /* Frameworks */ = {
+		0ADC2FE920837A5D00B1C473 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,98 +40,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ADC2F5420836C9A00B1C473 = {
+		0ADC2FE320837A5D00B1C473 = {
 			isa = PBXGroup;
 			children = (
-				0ADC2F5F20836C9A00B1C473 /* BuilderPattern */,
-				0ADC2F5E20836C9A00B1C473 /* Products */,
+				0ADC2FEE20837A5D00B1C473 /* ProxyPattern */,
+				0ADC2FED20837A5D00B1C473 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0ADC2F5E20836C9A00B1C473 /* Products */ = {
+		0ADC2FED20837A5D00B1C473 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0ADC2F5D20836C9A00B1C473 /* BuilderPattern */,
+				0ADC2FEC20837A5D00B1C473 /* ProxyPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0ADC2F5F20836C9A00B1C473 /* BuilderPattern */ = {
+		0ADC2FEE20837A5D00B1C473 /* ProxyPattern */ = {
 			isa = PBXGroup;
 			children = (
-				0ADC2F6020836C9A00B1C473 /* main.swift */,
-				0ADC2F67208370D400B1C473 /* Director.swift */,
+				0ADC2FEF20837A5D00B1C473 /* main.swift */,
+				0ADC2FF620837A8000B1C473 /* Factory.swift */,
 			);
-			path = BuilderPattern;
+			path = ProxyPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0ADC2F5C20836C9A00B1C473 /* BuilderPattern */ = {
+		0ADC2FEB20837A5D00B1C473 /* ProxyPattern */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ADC2F6420836C9A00B1C473 /* Build configuration list for PBXNativeTarget "BuilderPattern" */;
+			buildConfigurationList = 0ADC2FF320837A5D00B1C473 /* Build configuration list for PBXNativeTarget "ProxyPattern" */;
 			buildPhases = (
-				0ADC2F5920836C9A00B1C473 /* Sources */,
-				0ADC2F5A20836C9A00B1C473 /* Frameworks */,
-				0ADC2F5B20836C9A00B1C473 /* CopyFiles */,
+				0ADC2FE820837A5D00B1C473 /* Sources */,
+				0ADC2FE920837A5D00B1C473 /* Frameworks */,
+				0ADC2FEA20837A5D00B1C473 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BuilderPattern;
-			productName = BuilderPattern;
-			productReference = 0ADC2F5D20836C9A00B1C473 /* BuilderPattern */;
+			name = ProxyPattern;
+			productName = ProxyPattern;
+			productReference = 0ADC2FEC20837A5D00B1C473 /* ProxyPattern */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0ADC2F5520836C9A00B1C473 /* Project object */ = {
+		0ADC2FE420837A5D00B1C473 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = BridgeLabz;
 				TargetAttributes = {
-					0ADC2F5C20836C9A00B1C473 = {
+					0ADC2FEB20837A5D00B1C473 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0ADC2F5820836C9A00B1C473 /* Build configuration list for PBXProject "BuilderPattern" */;
+			buildConfigurationList = 0ADC2FE720837A5D00B1C473 /* Build configuration list for PBXProject "ProxyPattern" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0ADC2F5420836C9A00B1C473;
-			productRefGroup = 0ADC2F5E20836C9A00B1C473 /* Products */;
+			mainGroup = 0ADC2FE320837A5D00B1C473;
+			productRefGroup = 0ADC2FED20837A5D00B1C473 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0ADC2F5C20836C9A00B1C473 /* BuilderPattern */,
+				0ADC2FEB20837A5D00B1C473 /* ProxyPattern */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ADC2F5920836C9A00B1C473 /* Sources */ = {
+		0ADC2FE820837A5D00B1C473 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADC2F68208370D400B1C473 /* Director.swift in Sources */,
-				0ADC2F6120836C9A00B1C473 /* main.swift in Sources */,
+				0ADC2FF720837A8000B1C473 /* Factory.swift in Sources */,
+				0ADC2FF020837A5D00B1C473 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0ADC2F6220836C9A00B1C473 /* Debug */ = {
+		0ADC2FF120837A5D00B1C473 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		0ADC2F6320836C9A00B1C473 /* Release */ = {
+		0ADC2FF220837A5D00B1C473 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +237,7 @@
 			};
 			name = Release;
 		};
-		0ADC2F6520836C9A00B1C473 /* Debug */ = {
+		0ADC2FF420837A5D00B1C473 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		0ADC2F6620836C9A00B1C473 /* Release */ = {
+		0ADC2FF520837A5D00B1C473 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,25 +258,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0ADC2F5820836C9A00B1C473 /* Build configuration list for PBXProject "BuilderPattern" */ = {
+		0ADC2FE720837A5D00B1C473 /* Build configuration list for PBXProject "ProxyPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ADC2F6220836C9A00B1C473 /* Debug */,
-				0ADC2F6320836C9A00B1C473 /* Release */,
+				0ADC2FF120837A5D00B1C473 /* Debug */,
+				0ADC2FF220837A5D00B1C473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0ADC2F6420836C9A00B1C473 /* Build configuration list for PBXNativeTarget "BuilderPattern" */ = {
+		0ADC2FF320837A5D00B1C473 /* Build configuration list for PBXNativeTarget "ProxyPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0ADC2F6520836C9A00B1C473 /* Debug */,
-				0ADC2F6620836C9A00B1C473 /* Release */,
+				0ADC2FF420837A5D00B1C473 /* Debug */,
+				0ADC2FF520837A5D00B1C473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0ADC2F5520836C9A00B1C473 /* Project object */;
+	rootObject = 0ADC2FE420837A5D00B1C473 /* Project object */;
 }
